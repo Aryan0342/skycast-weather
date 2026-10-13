@@ -1,0 +1,65 @@
+/* Skycast Weather card. Every class is prefixed with "skycast-" to avoid clashing with themes. */
+
+.skycast-card {
+	box-sizing: border-box;
+	max-width: 320px;
+	margin: 1.5em 0;
+	padding: 1.25em 1.5em;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 12px;
+	background: rgba(127, 127, 127, 0.06);
+	font-family: inherit;
+	line-height: 1.4;
+}
+
+.skycast-card p {
+	margin: 0;
+}
+
+.skycast-head {
+	display: flex;
+	align-items: center;
+	gap: 0.5em;
+}
+
+.skycast-icon {
+	font-size: 2.5em;
+	line-height: 1;
+}
+
+.skycast-temp {
+	font-size: 2.25em;
+	font-weight: 700;
+}
+
+.skycast-place {
+	margin-top: 0.5em !important;
+	font-weight: 600;
+}
+
+.skycast-desc {
+	text-transform: capitalize;
+	opacity: 0.8;
+}
+
+.skycast-details {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.25em 1em;
+	margin: 0.75em 0 0;
+	padding: 0;
+	list-style: none;
+	font-size: 0.875em;
+	opacity: 0.8;
+}
+
+.skycast-note,
+.skycast-loading {
+	margin-top: 0.5em !important;
+	font-size: 0.8125em;
+	opacity: 0.7;
+}
+
+.skycast-error {
+	color: #b32d2e;
+}
